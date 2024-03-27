@@ -25,6 +25,7 @@ const Header = () => {
       <nav className="navbar navbar-expand-lg bg-body-tertiary fixed-top">
         <div className="container-fluid">
           <button
+            style={{ float: "left" }}
             className="navbar-toggler"
             type="button"
             data-bs-toggle="collapse"
@@ -35,7 +36,7 @@ const Header = () => {
           >
             <span className="navbar-toggler-icon" />
           </button>
-          <div className="collapse navbar-collapse" id="navbarTogglerDemo01">
+          <div className="collapse navbar-collapse" id="navbarTogglerDemo01" style={{}}>
             <Link to="/" className="navbar-brand">
               🛒 Ecommerce App
             </Link>
@@ -101,9 +102,8 @@ const Header = () => {
                     <ul className="dropdown-menu">
                       <li>
                         <NavLink
-                          to={`/dashboard/${
-                            auth?.user?.role === 1 ? "admin" : "user"
-                          }`}
+                          to={`/dashboard/${auth?.user?.role === 1 ? "admin" : "user"
+                            }`}
                           className="dropdown-item"
                         >
                           Dashboard

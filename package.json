@@ -1,7 +1,7 @@
 {
-  "name": "Ecommerce-app-2023",
+  "name": "Ecommerce-app-2023-24",
   "version": "1.0.0",
-  "description": "ecommerce rest api",
+  "description": "this project we are make for collage , this a collage 2023-24 project",
   "main": "server.js",
   "type": "module",
   "scripts": {
